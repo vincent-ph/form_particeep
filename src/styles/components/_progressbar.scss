@@ -1,0 +1,22 @@
+// Variable
+$progress-bar-background-color: $light-red;
+$progress-bar-fill-color: $red;
+$progress-bar-height: 10px;
+
+.progress-bar {
+  background-color: $progress-bar-background-color;
+  height: $progress-bar-height;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+
+  &__fill {
+    background-color: $progress-bar-fill-color;
+    width: 100%;
+    height: $progress-bar-height;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 5px;
+    border-radius: 5px 0 0 0;
+  }
+}
