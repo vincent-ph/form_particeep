@@ -3,6 +3,6 @@
 
 #### Lancez les commandes suivantes:
 ```
-npm i
+npm install
 npm run dev
 ```
